@@ -47,7 +47,7 @@ VLOG_DEFINE_THIS_MODULE(binding);
 #define OVN_INSTALLED_EXT_ID "ovn-installed"
 #define OVN_INSTALLED_TS_EXT_ID "ovn-installed-ts"
 
-#define OVN_QOS_TYPE "linux-htb"
+#define OVN_QOS_TYPE "linux-hfsc"
 
 #define CLAIM_TIME_THRESHOLD_MS 500
 
