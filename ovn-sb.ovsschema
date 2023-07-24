@@ -1,7 +1,7 @@
 {
     "name": "OVN_Southbound",
-    "version": "20.27.4",
-    "cksum": "3194181501 30531",
+    "version": "20.27.5",
+    "cksum": "1586317441 32882",
     "tables": {
         "SB_Global": {
             "columns": {
@@ -303,14 +303,14 @@
                                                                 "burst"]]},
                                        "value": {"type": "integer",
                                                  "minInteger": 1,
-                                                 "maxInteger": 4294967295},
+                                                 "maxInteger": 34359738360},
                                        "min": 0, "max": "unlimited"}},
                 "bandwidth_min": {"type": {"key": {"type": "string",
                                                "enum": ["set", ["min"
                                                                 ]]},
                                        "value": {"type": "integer",
                                                  "minInteger": 1,
-                                                 "maxInteger": 4294967295},
+                                                 "maxInteger": 34359738360},
                                        "min": 0, "max": "unlimited"}},
                 "id_queue": {"type": "integer"},
                 "external_ids": {
